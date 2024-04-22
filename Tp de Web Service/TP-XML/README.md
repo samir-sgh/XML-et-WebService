@@ -1,11 +1,4 @@
-<html>
-<head>
-<style>
-h1 {text-align: center}
-h2 {text-align: center}
-</style>
-</head>
-<body>
+
 <h1>Activité pratique Technologie XML</h1>
 <h2>Name Complet : SAMIR SGHIRI</h2>
 <div>
@@ -36,9 +29,5 @@ h2 {text-align: center}
 <p>Picture 7</p>
 <img src="Pictures/Q5operationCredit.png"/>
 </div>
-
-</body>
-
-</html>
 
 
