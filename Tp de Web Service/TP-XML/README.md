@@ -3,7 +3,7 @@
 <h2>Name Complet : SAMIR SGHIRI</h2>
 <div>
 <p>Picture 1</p>
-<img src="Pictures/Q1.PNG"/>
+<img src="Pictures/Q1.png"/>
 </div>
 <div>
 <p>Picture 2</p>
