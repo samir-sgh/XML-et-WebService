@@ -1,6 +1,6 @@
 
 <h1>Activité pratique Technologie XML</h1>
-<h2>Name Complet : SAMIR SGHIRI</h2>
+<h2>Nom Complet : SAMIR SGHIRI</h2>
 <div>
 <p>Picture 1</p>
 <img src="Pictures/Q1.png"/>
