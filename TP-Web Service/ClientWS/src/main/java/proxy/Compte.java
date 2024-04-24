@@ -11,7 +11,7 @@ import jakarta.xml.bind.annotation.XmlType;
 /**
  * <p>Classe Java pour compte complex type.</p>
  * 
- * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.</p>
+ * <p>Le fragment de schÃ©ma suivant indique le contenu attendu figurant dans cette classe.</p>
  * 
  * <pre>{@code
  * <complexType name="compte">
@@ -43,7 +43,7 @@ public class Compte {
     protected double solde;
 
     /**
-     * Obtient la valeur de la propriété code.
+     * Obtient la valeur de la propriÃ©tÃ© code.
      * 
      */
     public int getCode() {
@@ -51,7 +51,7 @@ public class Compte {
     }
 
     /**
-     * Définit la valeur de la propriété code.
+     * DÃ©finit la valeur de la propriÃ©tÃ© code.
      * 
      */
     public void setCode(int value) {
@@ -59,7 +59,7 @@ public class Compte {
     }
 
     /**
-     * Obtient la valeur de la propriété dateCreation.
+     * Obtient la valeur de la propriÃ©tÃ© dateCreation.
      * 
      * @return
      *     possible object is
@@ -71,7 +71,7 @@ public class Compte {
     }
 
     /**
-     * Définit la valeur de la propriété dateCreation.
+     * DÃ©finit la valeur de la propriÃ©tÃ© dateCreation.
      * 
      * @param value
      *     allowed object is
@@ -83,7 +83,7 @@ public class Compte {
     }
 
     /**
-     * Obtient la valeur de la propriété solde.
+     * Obtient la valeur de la propriÃ©tÃ© solde.
      * 
      */
     public double getSolde() {
@@ -91,7 +91,7 @@ public class Compte {
     }
 
     /**
-     * Définit la valeur de la propriété solde.
+     * DÃ©finit la valeur de la propriÃ©tÃ© solde.
      * 
      */
     public void setSolde(double value) {

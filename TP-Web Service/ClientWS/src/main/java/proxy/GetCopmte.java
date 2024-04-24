@@ -9,7 +9,7 @@ import jakarta.xml.bind.annotation.XmlType;
 /**
  * <p>Classe Java pour getCopmte complex type.</p>
  * 
- * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.</p>
+ * <p>Le fragment de schÃ©ma suivant indique le contenu attendu figurant dans cette classe.</p>
  * 
  * <pre>{@code
  * <complexType name="getCopmte">
@@ -34,7 +34,7 @@ public class GetCopmte {
     protected int code;
 
     /**
-     * Obtient la valeur de la propriété code.
+     * Obtient la valeur de la propriÃ©tÃ© code.
      * 
      */
     public int getCode() {
@@ -42,7 +42,7 @@ public class GetCopmte {
     }
 
     /**
-     * Définit la valeur de la propriété code.
+     * DÃ©finit la valeur de la propriÃ©tÃ© code.
      * 
      */
     public void setCode(int value) {

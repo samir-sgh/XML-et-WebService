@@ -12,7 +12,7 @@ import jakarta.xml.bind.annotation.XmlType;
 /**
  * <p>Classe Java pour listComptesResponse complex type.</p>
  * 
- * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.</p>
+ * <p>Le fragment de schÃ©ma suivant indique le contenu attendu figurant dans cette classe.</p>
  * 
  * <pre>{@code
  * <complexType name="listComptesResponse">

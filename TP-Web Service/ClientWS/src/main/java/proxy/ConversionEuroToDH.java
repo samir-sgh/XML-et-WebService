@@ -9,7 +9,7 @@ import jakarta.xml.bind.annotation.XmlType;
 /**
  * <p>Classe Java pour ConversionEuroToDH complex type.</p>
  * 
- * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.</p>
+ * <p>Le fragment de schÃ©ma suivant indique le contenu attendu figurant dans cette classe.</p>
  * 
  * <pre>{@code
  * <complexType name="ConversionEuroToDH">
@@ -34,7 +34,7 @@ public class ConversionEuroToDH {
     protected double montant;
 
     /**
-     * Obtient la valeur de la propriété montant.
+     * Obtient la valeur de la propriÃ©tÃ© montant.
      * 
      */
     public double getMontant() {
@@ -42,7 +42,7 @@ public class ConversionEuroToDH {
     }
 
     /**
-     * Définit la valeur de la propriété montant.
+     * DÃ©finit la valeur de la propriÃ©tÃ© montant.
      * 
      */
     public void setMontant(double value) {

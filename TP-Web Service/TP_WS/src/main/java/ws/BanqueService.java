@@ -10,7 +10,7 @@ import java.util.Comparator;
 import java.util.Date;
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
-@WebService(serviceName = "BanqueService")
+@WebService(serviceName = "BanqueWS")
 public class BanqueService {
     @WebMethod(operationName = "ConversionEuroToDH")
     public double conversion(@WebParam(name = "montant") double mt){
@@ -26,6 +26,7 @@ public class BanqueService {
                 new Compte(1,Math.random()*60000,new Date()),
                 new Compte(2,Math.random()*60000,new Date()),
                 new Compte(3,Math.random()*60000,new Date())
+
         );
     }
 }

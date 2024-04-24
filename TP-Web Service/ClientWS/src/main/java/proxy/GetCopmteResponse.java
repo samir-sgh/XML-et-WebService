@@ -10,7 +10,7 @@ import jakarta.xml.bind.annotation.XmlType;
 /**
  * <p>Classe Java pour getCopmteResponse complex type.</p>
  * 
- * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.</p>
+ * <p>Le fragment de schÃ©ma suivant indique le contenu attendu figurant dans cette classe.</p>
  * 
  * <pre>{@code
  * <complexType name="getCopmteResponse">
@@ -36,7 +36,7 @@ public class GetCopmteResponse {
     protected Compte _return;
 
     /**
-     * Obtient la valeur de la propriété return.
+     * Obtient la valeur de la propriÃ©tÃ© return.
      * 
      * @return
      *     possible object is
@@ -48,7 +48,7 @@ public class GetCopmteResponse {
     }
 
     /**
-     * Définit la valeur de la propriété return.
+     * DÃ©finit la valeur de la propriÃ©tÃ© return.
      * 
      * @param value
      *     allowed object is

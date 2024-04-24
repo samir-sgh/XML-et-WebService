@@ -17,14 +17,14 @@ import jakarta.xml.ws.WebServiceFeature;
  * Generated source version: 3.0
  * 
  */
-@WebServiceClient(name = "BanqueService", targetNamespace = "http://ws/", wsdlLocation = "http://localhost:8181/?wsdl")
-public class BanqueService_Service
+@WebServiceClient(name = "BanqueWS", targetNamespace = "http://ws/", wsdlLocation = "http://localhost:8181/?wsdl")
+public class BanqueWS
     extends Service
 {
 
-    private static final URL BANQUESERVICE_WSDL_LOCATION;
-    private static final WebServiceException BANQUESERVICE_EXCEPTION;
-    private static final QName BANQUESERVICE_QNAME = new QName("http://ws/", "BanqueService");
+    private static final URL BANQUEWS_WSDL_LOCATION;
+    private static final WebServiceException BANQUEWS_EXCEPTION;
+    private static final QName BANQUEWS_QNAME = new QName("http://ws/", "BanqueWS");
 
     static {
         URL url = null;
@@ -34,31 +34,31 @@ public class BanqueService_Service
         } catch (MalformedURLException ex) {
             e = new WebServiceException(ex);
         }
-        BANQUESERVICE_WSDL_LOCATION = url;
-        BANQUESERVICE_EXCEPTION = e;
+        BANQUEWS_WSDL_LOCATION = url;
+        BANQUEWS_EXCEPTION = e;
     }
 
-    public BanqueService_Service() {
-        super(__getWsdlLocation(), BANQUESERVICE_QNAME);
+    public BanqueWS() {
+        super(__getWsdlLocation(), BANQUEWS_QNAME);
     }
 
-    public BanqueService_Service(WebServiceFeature... features) {
-        super(__getWsdlLocation(), BANQUESERVICE_QNAME, features);
+    public BanqueWS(WebServiceFeature... features) {
+        super(__getWsdlLocation(), BANQUEWS_QNAME, features);
     }
 
-    public BanqueService_Service(URL wsdlLocation) {
-        super(wsdlLocation, BANQUESERVICE_QNAME);
+    public BanqueWS(URL wsdlLocation) {
+        super(wsdlLocation, BANQUEWS_QNAME);
     }
 
-    public BanqueService_Service(URL wsdlLocation, WebServiceFeature... features) {
-        super(wsdlLocation, BANQUESERVICE_QNAME, features);
+    public BanqueWS(URL wsdlLocation, WebServiceFeature... features) {
+        super(wsdlLocation, BANQUEWS_QNAME, features);
     }
 
-    public BanqueService_Service(URL wsdlLocation, QName serviceName) {
+    public BanqueWS(URL wsdlLocation, QName serviceName) {
         super(wsdlLocation, serviceName);
     }
 
-    public BanqueService_Service(URL wsdlLocation, QName serviceName, WebServiceFeature... features) {
+    public BanqueWS(URL wsdlLocation, QName serviceName, WebServiceFeature... features) {
         super(wsdlLocation, serviceName, features);
     }
 
@@ -85,10 +85,10 @@ public class BanqueService_Service
     }
 
     private static URL __getWsdlLocation() {
-        if (BANQUESERVICE_EXCEPTION!= null) {
-            throw BANQUESERVICE_EXCEPTION;
+        if (BANQUEWS_EXCEPTION!= null) {
+            throw BANQUEWS_EXCEPTION;
         }
-        return BANQUESERVICE_WSDL_LOCATION;
+        return BANQUEWS_WSDL_LOCATION;
     }
 
 }

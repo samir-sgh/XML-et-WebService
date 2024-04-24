@@ -10,7 +10,7 @@ import jakarta.xml.bind.annotation.XmlType;
 /**
  * <p>Classe Java pour ConversionEuroToDHResponse complex type.</p>
  * 
- * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.</p>
+ * <p>Le fragment de schÃ©ma suivant indique le contenu attendu figurant dans cette classe.</p>
  * 
  * <pre>{@code
  * <complexType name="ConversionEuroToDHResponse">
@@ -36,7 +36,7 @@ public class ConversionEuroToDHResponse {
     protected double _return;
 
     /**
-     * Obtient la valeur de la propriété return.
+     * Obtient la valeur de la propriÃ©tÃ© return.
      * 
      */
     public double getReturn() {
@@ -44,7 +44,7 @@ public class ConversionEuroToDHResponse {
     }
 
     /**
-     * Définit la valeur de la propriété return.
+     * DÃ©finit la valeur de la propriÃ©tÃ© return.
      * 
      */
     public void setReturn(double value) {

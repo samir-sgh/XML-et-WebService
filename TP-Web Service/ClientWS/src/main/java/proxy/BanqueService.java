@@ -27,15 +27,18 @@ public interface BanqueService {
 
     /**
      * 
+     * @param montant
      * @return
-     *     returns java.util.List<proxy.Compte>
+     *     returns double
      */
-    @WebMethod
+    @WebMethod(operationName = "ConversionEuroToDH")
     @WebResult(targetNamespace = "")
-    @RequestWrapper(localName = "listComptes", targetNamespace = "http://ws/", className = "proxy.ListComptes")
-    @ResponseWrapper(localName = "listComptesResponse", targetNamespace = "http://ws/", className = "proxy.ListComptesResponse")
-    @Action(input = "http://ws/BanqueService/listComptesRequest", output = "http://ws/BanqueService/listComptesResponse")
-    public List<Compte> listComptes();
+    @RequestWrapper(localName = "ConversionEuroToDH", targetNamespace = "http://ws/", className = "proxy.ConversionEuroToDH")
+    @ResponseWrapper(localName = "ConversionEuroToDHResponse", targetNamespace = "http://ws/", className = "proxy.ConversionEuroToDHResponse")
+    @Action(input = "http://ws/BanqueService/ConversionEuroToDHRequest", output = "http://ws/BanqueService/ConversionEuroToDHResponse")
+    public double conversionEuroToDH(
+        @WebParam(name = "montant", targetNamespace = "")
+        double montant);
 
     /**
      * 
@@ -54,17 +57,14 @@ public interface BanqueService {
 
     /**
      * 
-     * @param montant
      * @return
-     *     returns double
+     *     returns java.util.List<proxy.Compte>
      */
-    @WebMethod(operationName = "ConversionEuroToDH")
+    @WebMethod
     @WebResult(targetNamespace = "")
-    @RequestWrapper(localName = "ConversionEuroToDH", targetNamespace = "http://ws/", className = "proxy.ConversionEuroToDH")
-    @ResponseWrapper(localName = "ConversionEuroToDHResponse", targetNamespace = "http://ws/", className = "proxy.ConversionEuroToDHResponse")
-    @Action(input = "http://ws/BanqueService/ConversionEuroToDHRequest", output = "http://ws/BanqueService/ConversionEuroToDHResponse")
-    public double conversionEuroToDH(
-        @WebParam(name = "montant", targetNamespace = "")
-        double montant);
+    @RequestWrapper(localName = "listComptes", targetNamespace = "http://ws/", className = "proxy.ListComptes")
+    @ResponseWrapper(localName = "listComptesResponse", targetNamespace = "http://ws/", className = "proxy.ListComptesResponse")
+    @Action(input = "http://ws/BanqueService/listComptesRequest", output = "http://ws/BanqueService/listComptesResponse")
+    public List<Compte> listComptes();
 
 }
